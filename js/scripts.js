@@ -16,51 +16,51 @@
 
 
 
-    // ---------------------------------------------- 
-    //  magnific-popup
     // ----------------------------------------------
-	(function () {
+    //  magnific-popup
+  //   // ----------------------------------------------
+	// (function () {
+	//
+	// 	$('.portfolio-items').magnificPopup({
+	// 		delegate: 'a',
+	// 		type: 'image',
+	// 		// other options
+	// 		closeOnContentClick: false,
+	// 		closeBtnInside: false,
+	// 		mainClass: 'mfp-with-zoom mfp-img-mobile',
+	//
+	// 		gallery: {
+	// 			enabled: false
+	// 		},
+	// 		zoom: {
+	// 			enabled: true,
+	// 			duration: 300, // don't foget to change the duration also in CSS
+	// 			opener: function(element) {
+	// 				return element.find('i');
+	// 			}
+	// 		}
+	//
+	// 	});
+	//
+	// }()); 
 
-		$('.portfolio-items').magnificPopup({ 
-			delegate: 'a',
-			type: 'image',
-			// other options
-			closeOnContentClick: false,
-			closeBtnInside: false,
-			mainClass: 'mfp-with-zoom mfp-img-mobile',
-
-			gallery: {
-				enabled: false
-			},
-			zoom: {
-				enabled: true,
-				duration: 300, // don't foget to change the duration also in CSS
-				opener: function(element) {
-					return element.find('i');
-				}
-			}
-
-		});
-
-	}()); 
 
 
-
-    // ---------------------------------------------- 
+    // ----------------------------------------------
     // Fun facts
-    // ---------------------------------------------- 
+    // ----------------------------------------------
 	(function () {
 		$('.st-counter').counterUp({
 		    delay: 10,
 		    time: 1500
 		});
-	}()); 
+	}());
 
 
 
-    // ---------------------------------------------- 
-    //  Isotope Filter 
-    // ---------------------------------------------- 
+    // ----------------------------------------------
+    //  Isotope Filter
+    // ----------------------------------------------
 	(function () {
 		var winDow = $(window);
 		var $container=$('.portfolio-items');
@@ -85,7 +85,7 @@
 			var selector = $filter.find('a.active').attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -102,7 +102,7 @@
 			var selector = $(this).attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -126,7 +126,7 @@
 				$this.addClass('active');
 			}
 		});
-	}()); 
+	}());
 
 
 	// -------------------------------------------------------------
@@ -186,22 +186,22 @@
             }
         });
     }());
-	
+
 
     // ----------------------------------------------
     // Parallax Scrolling
     // ----------------------------------------------
 	(function () {
 		$(window).bind('load', function () {
-			parallaxInit();						  
+			parallaxInit();
 		});
-		function parallaxInit() {		
+		function parallaxInit() {
 			$("#testimonial").parallax("50%", 0.3);
-		}	
+		}
 		parallaxInit();
 	}());
 
-	
+
 
     // ----------------------------------------------
     // fitvids js
@@ -210,9 +210,9 @@
 
         $(".post-video").fitVids();
 
-    }()); 
+    }());
 
 
-	
+
 
 });
