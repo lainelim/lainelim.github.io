@@ -193,8 +193,8 @@
 	}
 
 	.st-navbar{
-		background-color: #fff;
-		border-bottom: 1px solid #f0f0f0;
+		background-color: #3d3d3d;
+		border-bottom: 1px solid #3d3d3d;
 	}
 
 	.st-navbar ul{
@@ -206,11 +206,12 @@
 		font-weight: 600;
 		padding: 0;
 		margin: 14px;
+		color: #F2DDDE;
 	}
 
 	.st-navbar ul li a:hover,
 	.st-navbar ul li a:focus {
-		background-color: transparent;
+		background-color: #3d3d3d;
 		color: #000;
 	}
 
@@ -219,7 +220,7 @@
 	}
 
 	.st-navbar .navbar-toggle .icon-bar {
-		background-color: #000;
+		background-color: #3d3d3d;
 	}
 
 	.st-navbar .navbar-toggle{
@@ -234,6 +235,7 @@
 		font-size: 18px;
 		font-weight: 400;
 		font-style:italic;
+		color: #F2DDDE
 	}
 
 
@@ -951,7 +953,7 @@
 /* 15. FOOTER */
 
 	#footer{
-		background-color: #262626;
+		background-color: #3d3d3d;
 		padding-top: 40px;
 		padding-bottom: 40px;
 		color: rgba(255, 255, 255, 0.4);
