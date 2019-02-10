@@ -33,7 +33,7 @@
 
 
 	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i|Lato');
-	</style>
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 
@@ -44,8 +44,8 @@
 	}
 
 	body {
-		font-family: "Lato", Helvetica, Arial, sans-serif;
-		font-size: 15px;
+		font-family: "Open Sans", "Lato", Helvetica, Arial, sans-serif;
+		font-size: 16px;
 		line-height: 1.7857;
 		letter-spacing: 0.075em;
 		color: #333333;
@@ -62,7 +62,7 @@
 	}
 
 	a:hover {
-		color: #000;
+		color: #333333;
 	}
 
 	a, a:hover, a:active, a:focus, button:focus {
@@ -72,7 +72,7 @@
 	}
 
 	#st-preloader {
-		background: #FFF;
+		background: #fff;
 		bottom: 0;
 		left: 0;
 		position: fixed;
@@ -90,6 +90,14 @@
 		font-weight: 300;
 		font-style: italic;
 		text-transform: uppercase;
+	}
+
+	p{
+		letter-spacing: normal !important;
+	}
+
+	li{
+		letter-spacing: normal !important;
 	}
 
 	input, textarea{
@@ -193,8 +201,9 @@
 	}
 
 	.st-navbar{
-		background-color: #3d3d3d;
-		border-bottom: 1px solid #3d3d3d;
+		background-color: #fff;
+		border-bottom: 1px solid #fff;
+		box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	}
 
 	.st-navbar ul{
@@ -206,13 +215,13 @@
 		font-weight: 600;
 		padding: 0;
 		margin: 14px;
-		color: #F2DDDE;
+		color: #333;
 	}
 
 	.st-navbar ul li a:hover,
 	.st-navbar ul li a:focus {
-		background-color: #3d3d3d;
-		color: #000;
+		background-color: #fff;
+		color: #00B7EB;
 	}
 
 	.st-navbar .navbar-header{
@@ -220,7 +229,7 @@
 	}
 
 	.st-navbar .navbar-toggle .icon-bar {
-		background-color: #3d3d3d;
+		background-color: #fff;
 	}
 
 	.st-navbar .navbar-toggle{
@@ -235,7 +244,7 @@
 		font-size: 18px;
 		font-weight: 400;
 		font-style:italic;
-		color: #F2DDDE
+		color: #00B7EB;
 	}
 
 
@@ -383,9 +392,13 @@
 /* 6. SERVICES */
 
 	#services{
-		background-color: #F2DDDE;
-		padding-top: 130px;
-		padding-bottom: 120px;
+		background-color: #fff;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+
+	.school-info{
+		margin-bottom: 25px;
 	}
 
 	.section-title{
@@ -412,9 +425,29 @@
 
 	.st-service p{}
 
+	.test{
+		margin-bottom: 48px;
+		padding-right: 5%
+	}
+
 
 
 /* 7. OUR WORKS */
+
+
+	.image-container{
+		height: 400px;
+		overflow: hidden;
+	}
+
+	.project-img{
+		width: 100%;
+		height: auto;
+	}
+
+	.project-info{
+		margin-bottom: 24px;
+	}
 
 	.isotope-item {
 	    z-index: 2;
@@ -439,8 +472,8 @@
 	}
 
 	#our-works{
-		padding-top: 130px;
-		padding-bottom: 120px;
+		padding-bottom: 5%;
+		padding-top: 5%;
 	}
 
 	.portfolio-wrapper ul.filter{
@@ -575,14 +608,31 @@
 
 /* 9. ABOUT US */
 
+
+
+.profile-pic{
+	height: 160px;
+	width: auto;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-bottom: 5%;
+	display: inline-block;
+}
+
+.one-liner{
+	display: inline-block;
+}
+
 	#about-us{
-		background-color: #F2DDDE;
+		background-color: #fff;
 	}
 
 	#about-us .about-us{
-		padding-left: 15%;
-		padding-right: 15%;
-		padding-top: 15%;
+		/*padding-left: 15%;
+		padding-right: 15%;*/
+		padding-bottom: 5%;
+		padding-top: 5%;
 	}
 
 	#about-us .about-us h4{
@@ -705,8 +755,8 @@
 /* 13. CONTACT */
 
 	#contact{
-		padding-top: 130px;
-		padding-bottom: 120px;
+		padding-bottom: 5%;
+		padding-top: 5%;
 	}
 
 	.contact-info .contact-content{
@@ -953,17 +1003,17 @@
 /* 15. FOOTER */
 
 	#footer{
-		background-color: #3d3d3d;
+		background-color: #fafafa;
 		padding-top: 40px;
 		padding-bottom: 40px;
-		color: rgba(255, 255, 255, 0.4);
+		color: #333333;
 	}
 
 	#footer a{
-		color: rgba(255, 255, 255, 0.4);
+		color: #333333;
 	}
 	#footer a:hover{
-		color: #fff;
+		color: #333333;
 	}
 
 	.footer-social-icons{
