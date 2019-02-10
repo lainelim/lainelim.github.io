@@ -1095,6 +1095,10 @@
 	padding-bottom:24px;
 }
 
+.project-section li{
+	letter-spacing: normal;
+}
+
 .section-img{
 	padding: 24px;
 	width: 100%;
