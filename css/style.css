@@ -472,7 +472,7 @@
 	}
 
 	#our-works{
-		padding-bottom: 5%;
+		/*padding-bottom: 5%;*/
 		padding-top: 5%;
 	}
 
@@ -631,7 +631,7 @@
 	#about-us .about-us{
 		/*padding-left: 15%;
 		padding-right: 15%;*/
-		padding-bottom: 5%;
+		/*padding-bottom: 5%;*/
 		padding-top: 5%;
 	}
 
@@ -756,7 +756,7 @@
 
 	#contact{
 		padding-bottom: 5%;
-		padding-top: 5%;
+		/*padding-top: 5%;*/
 	}
 
 	.contact-info .contact-content{
